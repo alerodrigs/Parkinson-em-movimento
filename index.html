@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parkinson Em Movimento</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsividade.css">
+        <script>
+            (function () {
+                var nomeArquivo = window.innerWidth > 430 ? 'script.js' : 'script-mobile.js';
+                var script = document.createElement('script');
+                script.src = nomeArquivo;
+                script.async = false;
+                document.head.appendChild(script);
+            })();
+        </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Akshar:wght@300..700&family=Inter:ital,opsz@0,14..32;1,14..32&family=Tenor+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body class="fundo-cinza">
+            <section id="home">
+                <nav>
+                    <div id="nav-esquerda">
+                        <a href="#">
+                            <img src="Fotos parkinson/logo.png" alt="Logo Projeto Parkinson em Movimento" />
+                            <span id="nome-site">Parkinson em Movimento</span>
+                        </a>
+                    </div>
+                    <button id="btn-menu-mobile" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-direita">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div id="nav-direita">
+                        <a href="#condição">Condição</a>
+                        <a href="#fique-por-dentro">Sobre nós</a>
+                        <a href="#vantagens-e-beneficios">Vantagens</a>
+                        <a href="#contact-section">Contato</a>
+                    </div>
+                </nav>
+                <section id="secao-inicial">
+                    <div id="barra-introducao">
+                        <div id="texto-introducao">
+                            <h1>Parkinson em Movimento</h1>
+                            <p>É um programa com o intuito de auxiliar pacientes com a doença de Parkinson (DP) a praticarem atividades físicas de forma prática e orientada. Entender o passado da condição é um passo importante. Clique abaixo para conhecer a origem e a descoberta do Parkinson.</p>
+                        </div>
+                        <div id="texto-em-branco">
+                        </div>
+                    </div>
+
+                    <img id="imagem-barra" src="Fotos parkinson/img_cerebro.jpeg" alt="Imagem de um cerebro em cores verde e roxo."/>
+                    
+
+                    <a href="#condição" id="bt-saiba-mais" >SAIBA MAIS</a>
+                </section>
+                <section id="frase-motivadora">
+                    <p>A informação é o melhor remédio e o movimento seu maior aliado.</p>
+                    <p id="autor-citacao">Projeto Parkinson em Movimento</p>
+                </section>
+            </section>    
+        <main id="condição">
+            <div class="area-ondas">
+                <div class="fundo-sobreparkinson"></div>
+                <div class="fundo-sobreprojeto"></div>
+            
+                <div class="margem-pagina">
+                        <section id="sobre-o-parkinson">
+                            <div>
+                                <div class="bola-cinza">
+                                    <div class="bola-preta pontilhado">
+                                        <div class="bola-verde">
+                                            <h2>Sobre a doença de Parkinson</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carrossel-baralho">
+                                <article class="card posicao-1" id="descoberta">
+                                    <h2>Descoberta</h2>
+                                    <p>A DP foi descoberta em 1817 pelo médico britânico James Pakinson, que descreveu sintomas como tremores e dificuldade de movimentos. <br> No final do século XIX, Jean-Martin Charcot realizou importantes pesquisas sobre doenças neurológicas e ajudou a diferenciar a DP de outras enfermidades com sintomas semelhantes. Ele também foi responsável por dar oficialmente o nome “Doença de Parkinson” em homenagem a James Parkinson.</p>
+                                    <p></p>
+                                </article>
+                                <article class="card posicao-2" id="sintomas-fisicos">
+                                    <h2>Sintomas Físicos</h2>
+                                    <p>Entre os principais sintomas físicos estão os tremores, principalmente nas mãos, braços ou pernas, a rigidez muscular, a lentidão dos movimentos, as alterações na postura e as dificuldades de equilíbrio e coordenação. <br> <br>
+                                        Abaixo te indicamos os melhores exercícios fisicos para cada sintoma:
+                                    </p>
+                                    <button id="saibamais-sintomasfisicos" class="btn-saibamais" >saiba mais</button>
+                                </article>
+                                <article class="card posicao-3" id="sintomas-cognitivos">
+                                    <h2>Sintomas Cognitivos</h2>
+                                    <p>Afetam a saúde mental e emocional como ansiedade, depressão, alterações de humor, dificuldade de concentração, problemas de memória e distúrbios do sono. <br> <br> Por isso, a busca por ajuda psicológica profissional, torna-se importante.
+                                    </p>
+                                </article>
+                                <article class="card posicao-4" id="estagios">
+                                    <h2>Estágios</h2>
+                                    <p>Estágio 1: Sintomas leves, afetam apenas um lado do corpo. <br>
+                                        Estágio 2: Sintomas afetam os dois lados, postura começa a mudar. <br>
+                                        Estágio 3: Perda de equilíbrio e movimentos lentos (ainda independente). <br>
+                                        Estágio 4: Limitação grave, precisa de ajuda no dia a dia. <br>
+                                        Estágio 5: Restrito à cama ou cadeira de rodas, dependência total.</p>
+                                </article>
+                                <article class="card posicao-5" id="tratamentos">
+                                    <h2>Tratamentos</h2>
+                                    <p>O tratamento da DP tem como objetivo controlar os sintomas, melhorar a qualidade de vida do paciente e impedir o avanço da doença.</p>
+                                    <p>O uso de medicamentos com prescrição médica; fisioterapia; fonoaudiologia; aconselhamento psicológico; prática de exercícios físicos: caminhadas, natação e exercícios aeróbicos podem ajudar a melhorar a função motora e o equilíbrio.</p>
+                                    <button id="saibamais-tratamentos" class="btn-saibamais-tratamentos">saiba mais</button>
+                                </article>
+                                <div class="controles-baralho">
+                                    <button class="direita"></button>
+                                    <button class="esquerda"></button>
+                                </div>
+                            </div>
+
+                            <div class="dots-carrossel" aria-hidden="true">
+                                <span class="ativo"></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                         </section>
+                
+                <div class="container">
+                    <section id="fique-por-dentro" class="secao-newsletter">
+                        <h2>FIQUE POR DENTRO!</h2>
+                        <p>O projeto foi criado para facilitar e incentivar a prática de atividade física específica para pacientes com Parkinson. 
+                            A prática contínua de exercícios físicos contribui para autonomia, saúde física e mental. 
+                            <br><br>Clique no botão abaixo para acessar os exercícios e começar a sua rotina diária de cuidados.
+                        </p>
+                        <a href="#contact-section" id="btn-cadastrar" >Quero cadastrar</a>
+                    </section>
+
+                    <section id="sobre-o-projeto" class="secao-projeto">
+
+                        <div class="foto-perfil"></div>
+
+                        <div class="margem-sobre-criacao">
+                            <h2>SOBRE A CRIAÇÃO</h2> 
+                            <p>Cristiane Morais, fundadora do Parkinson em Movimento, é fisioterapeuta neurofuncional especialista em DP, mestre em Ciências e tem sólido conhecimento e experiência na prática clínica, além de ter mais de 20 anos de profissão e 16 anos dedicados às pessoas com Parkinson. Foi fundadora da Associação Parkinson do Triângulo Mineiro, uma instituição filantrópica de apoio às pessoas com Parkinson e já ajudou muitas pessoas a terem uma vida mais ativa e prazerosa.</p>
+                        </div>
+                    </section>
+                </div>
+                
+                </div>
+            </div>
+        
+        <section id="vantagens-e-beneficios">
+            <div class="fundo-verde">
+                <div class="pontilhado-vantagens">
+                    <div class="fundo-verde-escuro">
+                        <div class="margem-vantagens">
+                            <h2>As vantagens dos exercícios físicos para o Parkinson</h2>
+                            <p>Esse programa é para você que deseja:</p>
+                            <ul class="vantagens">
+                                <li>Melhora do equilíbrio e da coordenação;</li>
+                                <li>Mobilidade e flexibilidade;</li>
+                                <li>Redução dos sintomas de ansiedade e depressão;</li>
+                                <li>Maior independência funcional;</li>
+                                <li>Obter uma real melhora na qualidade de vida.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </main>
+    <section id="contact-section">
+    <div class="contact-wrapper">
+
+            <div class="contact-info">
+                <h1>Fale conosco</h1>
+
+                <div class="info-block">
+                    <h3>Instagram</h3>
+                    <p>@parkinsonemovimento</p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Contatos</h3>
+                    <p>Telefone / Whatsapp<br>(61) 99999-9999</p>
+                </div>
+            </div>
+
+      <div class="contact-form">
+            <p>Cadastre aqui para receber informações sobre esse projeto e entender a importância das atividades físicas para a sua qualidade de vida.</p>
+
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome e sobrenome">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="nome@email.com">
+                </div>
+
+                <div class="form-buttons">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="reset" class="btn btn-secondary">Cancelar</button>
+                </div>
+            </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Todos os direitos reservados <strong>Parkinson em Movimento</strong> 2026</p>
+  </footer>
+
+  <script>
+    var btnMenu = document.getElementById('btn-menu-mobile');
+    var navDireita = document.getElementById('nav-direita');
+
+    if (btnMenu && navDireita) {
+      btnMenu.addEventListener('click', function () {
+        var aberto = navDireita.classList.toggle('aberto');
+        btnMenu.classList.toggle('aberto', aberto);
+        btnMenu.setAttribute('aria-expanded', aberto ? 'true' : 'false');
+        btnMenu.setAttribute('aria-label', aberto ? 'Fechar menu' : 'Abrir menu');
+      });
+
+      navDireita.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          navDireita.classList.remove('aberto');
+          btnMenu.classList.remove('aberto');
+          btnMenu.setAttribute('aria-expanded', 'false');
+          btnMenu.setAttribute('aria-label', 'Abrir menu');
+        });
+      });
+    }
+  </script>
+</body>
+</html>

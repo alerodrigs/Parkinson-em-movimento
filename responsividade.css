@@ -1,0 +1,617 @@
+/* RESPONSIVIDADE - diminuindo width */
+@media screen and (max-width: 1250px) {
+    #barra-introducao{
+        height: 23vh;
+    }
+}
+
+/* RESPONSIVIDADE - diminuindo height */
+@media screen and (max-height: 570px) {
+    #barra-introducao{
+        height: 26vh;
+    }
+}
+
+@media screen and (max-height: 490px) {
+    #barra-introducao{
+        height: 29vh;
+    }
+}
+
+@media screen and (max-height: 430px) {
+    #barra-introducao{
+        height: 34vh;
+    }
+}
+
+@media screen and (max-height: 378px) {
+    #barra-introducao{
+        height: 38vh;
+    }
+}
+
+/* responsividade main flex-direction: column */
+
+@media screen and (max-width: 1230px) {
+    #barra-introducao{
+        height: 23vh;
+    }
+
+    #sobre-o-parkinson{
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 120px;
+    }
+    .carrossel-baralho{
+        margin-left: 400px;
+        position: relative;
+        top: 40px;
+        width: 480px;
+        height: 460px;
+    }
+
+    .container{
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 120px;
+    }
+
+    .secao-newsletter{
+        margin-bottom: 90px;
+    }
+
+    .secao-projeto{
+        margin-left: 400px;
+    }
+
+    .fundo-sobreprojeto{
+    background-image: url(background/main/sobreprojeto-resposive.svg);
+    top: 1050px;
+    background-size: 600px auto;
+    }
+}
+
+@media screen and (max-width: 1119px) {
+    #barra-introducao{
+        height: 24vh;
+    }
+    .carrossel-baralho{
+    margin-left: 300px;
+    position: relative;
+    top: 40px;
+    width: 480px;
+    height: 460px;
+    }
+
+    .secao-projeto{
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    #barra-introducao{
+        height: 24vh;
+    }
+    .carrossel-baralho{
+    margin-left: 200px;
+    position: relative;
+    top: 40px;
+    width: 480px;
+    height: 460px;
+    }
+
+    .secao-projeto{
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 952px) {
+    #barra-introducao{
+    height: 32vh;
+    }
+
+    #barra-introducao h1{
+        text-align: left;
+    }
+
+    .carrossel-baralho{
+    margin-left: 170px;
+    position: relative;
+    top: 40px;
+    width: 480px;
+    height: 460px;
+    }
+
+    .secao-projeto{
+        margin-left: 170px;
+    }
+}
+
+/* ==========================================================
+   RESPONSIVIDADE — telas até 430px (ex: iPhone 14 Pro Max)
+   Este arquivo só sobrescreve o necessário do style.css.
+   ========================================================== */
+
+@media (max-width: 430px) {
+
+    /* ---------- NAV / MENU HAMBÚRGUER ---------- */
+
+    nav{
+        height: auto;
+        min-height: 10vh;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        padding: 0.6rem 1rem;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    #nav-esquerda{
+        justify-content: flex-start;
+        gap: 0.6rem;
+    }
+
+    #nav-esquerda img{
+        width: 2rem;
+    }
+
+    #nav-esquerda a{
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        text-decoration: none;
+    }
+
+    /* nome do site ao lado da logo, só visível no mobile */
+    #nome-site{
+        display: inline-block;
+        font-family: 'Tenor Sans', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: #212121;
+        white-space: nowrap;
+        text-decoration: none;
+    }
+
+    /* botão hambúrguer: 3 risquinhos */
+    #btn-menu-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 2.2rem;
+        height: 2.2rem;
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        justify-self: end;
+    }
+
+    #btn-menu-mobile span{
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #9C27B0;
+        border-radius: 2px;
+        transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+    }
+
+    /* X quando o menu está aberto */
+    #btn-menu-mobile.aberto span:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    #btn-menu-mobile.aberto span:nth-child(2){
+        opacity: 0;
+    }
+    #btn-menu-mobile.aberto span:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* menu de links: absoluto em relação à nav sticky */
+    #nav-direita{
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-color: #FFFFFF;
+        border-bottom: 0.4rem solid #9C27B0;
+        padding: 0.8rem 1.5rem 1rem;
+        z-index: 999;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    #nav-direita.aberto{
+        display: flex;
+    }
+
+    #nav-direita a{
+        margin-right: 0;
+        padding: 0.6rem 0;
+        font-size: 1.1rem;
+        width: 100%;
+    }
+
+    /* ---------- SEÇÃO INICIAL (home) ---------- */
+
+    #secao-inicial{
+        height: auto;
+        padding: 1.5rem 1rem 2.5rem;
+        overflow: visible;
+    }
+
+    /* a caixa roxa cheia vira moldura/borda; o texto fica num cartão branco */
+    #barra-introducao{
+        position: static;
+        height: auto !important;
+        width: 100%;
+        background-color: #FFFFFF;
+        border: 0.18rem solid #9C27B0;
+        border-radius: 4px;
+        padding: 1.2rem;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    #texto-introducao{
+        grid-column: 1;
+        color: #212121;
+        margin: 0;
+        text-align: left;
+    }
+
+    #texto-introducao h1{
+        display: none;
+    }
+
+    #texto-introducao p{
+        font-family: 'Akshar', sans-serif;
+        font-size: 0.95rem;
+        line-height: 1.35rem;
+    }
+
+    #texto-em-branco{
+        display: none;
+    }
+
+    #imagem-barra{
+        position: static;
+        display: block;
+        width: 50vw;
+        height: 50vw;
+        max-width: 190px;
+        max-height: 190px;
+        margin: 2.5rem auto 0;
+    }
+
+    #bt-saiba-mais{
+        position: static;
+        display: block;
+        width: fit-content;
+        margin: 0.8rem auto 0;
+        left: 0;
+        top: 0;
+        padding: 0.4rem 2rem;
+        font-size: 1.05rem;
+    }
+
+    #frase-motivadora{
+        height: auto;
+        padding: 1.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    /* ---------- SOBRE A DOENÇA (bola + carrossel) ---------- */
+
+    #sobre-o-parkinson{
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        padding-left: 0;
+        padding-right: 0;
+        gap: 30px;
+    }
+
+    .bola-cinza{
+        bottom: 0;
+        width: 220px;
+        height: 220px;
+        margin: 0 auto;
+    }
+
+    .bola-preta{
+        width: 200px;
+        height: 200px;
+    }
+
+    .bola-verde{
+        width: 160px;
+        height: 160px;
+    }
+
+    .bola-verde h2{
+        font-size: 1.2rem;
+        padding: 0 0.5rem;
+    }
+
+    /* Carrossel: de "baralho com setas" para "trilho com swipe" */
+    .carrossel-baralho{
+        margin-left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 16px;
+        padding: 0 16px 20px;
+    }
+
+    /* esconde a barra de rolagem, mantendo o swipe */
+    .carrossel-baralho::-webkit-scrollbar{
+        display: none;
+    }
+    .carrossel-baralho{
+        scrollbar-width: none;
+    }
+
+    .card,
+    .card.saindo-da-frente,
+    .card.entrando-na-frente{
+        position: static;
+        flex: 0 0 85%;
+        width: 85%;
+        max-width: 340px;
+        height: auto;
+        min-height: 320px;
+        scroll-snap-align: center;
+        transform: none !important;
+        opacity: 1 !important;
+        transition: none;
+        border-radius: 12px;
+        padding-bottom: 70px;
+    }
+
+    .carrossel-baralho h2{
+        font-size: 1.7rem;
+        font-weight: 300;
+        margin-left: 18px;
+        padding-bottom: 0.5rem;
+        border-bottom: 0.2rem solid var(--light-verde);
+        display: inline-block;
+    }
+
+    .carrossel-baralho p{
+        font-size: 1rem;
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-top: 14px;
+    }
+
+    .btn-saibamais, .btn-saibamais-tratamentos{
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        max-width: 220px;
+        font-size: 1.1rem;
+    }
+
+    /* botões de seta ficam ocultos: navegação é por swipe */
+    .controles-baralho{
+        display: none;
+    }
+
+    /* dots indicando a posição no carrossel — removidos a pedido do usuário */
+    .dots-carrossel{
+        display: none;
+    }
+
+    /* ---------- FIQUE POR DENTRO + SOBRE A CRIAÇÃO ---------- */
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 16px;
+        gap: 190px;
+    }
+
+    .secao-newsletter{
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        min-height: 340px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        box-shadow: none;
+    }
+
+    .secao-newsletter h2{
+        font-size: 1.8rem;
+        padding-top: 10px;
+    }
+
+    .secao-newsletter p{
+        font-size: 1.05rem;
+        margin: 16px;
+        padding-bottom: 20px;
+    }
+
+    #btn-cadastrar{
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        bottom: -84px;
+        width: 200px;
+        font-size: 1.1rem;
+        background: var(--light-verde);
+        color: #FFFFFF;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        z-index: 2;
+    }
+
+    .secao-projeto{
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        min-height: 380px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+    .foto-perfil{
+        width: 100px;
+        height: 100px;
+        background-size: 100px 100px;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -50px;
+        z-index: 2;
+    }
+
+    .margem-sobre-criacao{
+        position: static;
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 25px;
+    }
+
+    .secao-projeto h2{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .secao-projeto p{
+        font-size: 1.05rem;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* ---------- BACKGROUNDS DECORATIVOS (ondas) ---------- */
+    /* No mobile, esses SVGs de fundo ficam ocultos (não combinam com o layout em coluna) */
+
+    .fundo-sobreparkinson,
+    .fundo-sobreprojeto{
+        display: none;
+    }
+
+    .margem-pagina{
+        min-height: auto;
+    }
+
+    /* ---------- VANTAGENS E BENEFÍCIOS ---------- */
+
+    #vantagens-e-beneficios{
+        height: auto;
+        overflow: hidden;
+    }
+
+    .fundo-verde{
+        position: relative;
+        height: auto;
+        padding: 40px 0 60px;
+        overflow: hidden;
+    }
+
+    .pontilhado-vantagens{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        pointer-events: none;
+    }
+
+    .fundo-verde-escuro{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .margem-vantagens{
+        position: relative;
+        padding: 20px 24px 0;
+    }
+
+    #vantagens-e-beneficios h2{
+        font-size: 1.4rem;
+    }
+
+    #vantagens-e-beneficios p,
+    #vantagens-e-beneficios ul{
+        font-size: 1.05rem;
+    }
+
+    /* ---------- FALE CONOSCO / FORMULÁRIO ---------- */
+
+    #contact-section{
+        padding: 40px 20px 35px;
+    }
+
+    .contact-wrapper{
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .contact-wrapper > *{
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        flex: none !important;
+    }
+
+    .contact-info{
+        width: 100%;
+    }
+
+    .contact-info h1{
+        font-size: 1.8rem;
+        margin-bottom: 16px;
+    }
+
+    .info-block{
+        display: block;
+        margin-bottom: 14px;
+    }
+
+    .info-block h3{
+        font-size: 1.1rem;
+        margin-bottom: 2px;
+    }
+
+    .info-block p{
+        font-size: 1rem;
+    }
+
+    .contact-form{
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .form-buttons{
+        flex-wrap: wrap;
+    }
+
+    .btn{
+        flex: 1 1 auto;
+        text-align: center;
+    }
+}

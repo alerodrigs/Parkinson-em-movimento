@@ -1,0 +1,243 @@
+/* RESPONSIVIDADE - MOBILE */
+@media screen and (max-width: 768px) {
+    nav {
+        grid-template-columns: 1fr;
+        height: 1.5rem;
+        padding: 2.5rem;
+    }
+
+    #nav-esquerda {
+        padding: 0.5rem 0;
+        justify-content: left;
+    }
+
+    #nav-direita {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #nav-direita a {
+        margin-right: 0.5rem;
+    }
+
+    #secao-inicial {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    #barra-introducao {
+        position: relative;
+        top: auto;
+        height: auto;
+        grid-template-columns: 0.5fr;
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+        display: flex;  
+        flex-direction: column;
+    }
+
+    #imagem-barra {
+        width: 150px;
+        height: 150px;
+        position:relative;
+        flex-direction: column;
+        top: auto;
+        right: auto;
+        margin: 1.5rem auto 0;
+    }
+
+    #texto-introducao {
+        margin: 0;
+        text-align: center;
+    }
+
+    #bt-saiba-mais {
+        position: relative;
+        left: auto;
+        top: auto;
+        display: flex;
+        margin: 1.5rem auto 0;
+    }
+
+    #frase-motivadora {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    #sobre-o-parkinson {
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .bola-cinza {
+        width: 250px;
+        height: 250px;
+        bottom: 0;
+        margin: 0 auto 2rem;
+    }
+
+    .bola-preta {
+        width: 240px;
+        height: 240px;
+    }
+
+    .bola-verde {
+        width: 220px;
+        height: 220px;
+    }
+
+    .carrossel-baralho {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-bottom: 1rem;
+    }
+
+    .btn-saibamais,
+    .btn-saibamais-tratamentos {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .controles-baralho {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .secao-newsletter {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+        padding: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    #btn-cadastrar {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .secao-projeto {
+        width: 100%;
+        height: auto;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .foto-perfil {
+        position: relative;
+        right: auto;
+        top: auto;
+        margin-bottom: 1rem;
+    }
+
+    .margem-sobre-criacao {
+        position: relative;
+        width: 100%;
+    }
+
+    #vantagens-e-beneficios {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .margem-vantagens {
+        padding: 1rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fundo-verde-escuro {
+        width: 100%;
+        height: auto;
+    }
+
+    #contact-section {
+        padding: 2rem 1rem;
+    }
+
+    .contact-wrapper {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+/* RESPONSIVIDADE - MOBILE PEQUENO */
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 0.25rem;
+    }
+
+    #nav-esquerda img {
+        width: 2rem;
+    }
+
+    #nav-direita {
+        gap: 0.5rem;
+    }
+
+    #imagem-barra {
+        width: 180px;
+        height: 180px;
+    }
+
+    #secao-inicial {
+        padding: 1rem;
+    }
+
+    #barra-introducao {
+        padding: 1.5rem 1rem;
+    }
+
+    .bola-cinza {
+        width: 200px;
+        height: 200px;
+    }
+
+    .bola-preta {
+        width: 190px;
+        height: 190px;
+    }
+
+    .bola-verde {
+        width: 170px;
+        height: 170px;
+    }
+
+    .controles-baralho {
+        gap: 1rem;
+    }
+
+    .direita,
+    .esquerda {
+        width: 30px;
+        height: 30px;
+    }
+}
