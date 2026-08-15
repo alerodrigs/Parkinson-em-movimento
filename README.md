@@ -1,3 +1,4 @@
 # Parkinson-em-movimento
 
-ESSE É O REPOSITORIO PARA GERAR O LINK DO SITE
+link disponivel:
+https://darochadavi.github.io/daviparkinson/
