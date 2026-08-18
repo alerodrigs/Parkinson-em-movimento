@@ -80,3 +80,13 @@ Levantamento de Requisitos:
 
 O levantamento de requisitos do projeto foi feito a partir de reuniões quinzenais online com a cliente para alinhar seus objetivos e expectativas quanto ao site. Nessas reuniões foram definidos o público-alvo, o conteúdo, as informações necessárias e a identidade visual do projeto.
 A partir dos encontros foi definido a necessidade do site em informar o público-alvo sobre a doença; sobre o projeto; sobre a importância de se movimentar para garantir a melhora na qualidade de vida. Além disso, o site irá agrupar alguns vídeos de exercícios fisioterapêuticos para que as pessoas com Parkinson realizem em casa.    
+
+- Requisitos Funcionais(RF):
+ 	- RF 01: Apresentar visualmente sobre o projeto e sobre a autora dele;
+	- RF 02: Informar o visitante sobre a doença de Parkinson;
+	- RF 03: Disponibilizar formulário para cadastro de usuários que desejam receber informações sobre o projeto;
+	- RF 04: Disponibilizar formulário para os usuários enviarem perguntas à autora;
+	- RF 05: Cadastrar usuários para acessarem o acompanhamento das práticas de atividades físicas de acordo com suas necessidades individuais;
+	- RF 06: Incluir uma checklist para o usuário acompanhar o seu desempenho;
+	- RF 07: Hospedar vídeos e textos informativos sobre as práticas de exercícios;
+	- RF 08: Notificar os usuários cadastrados na plataforma como forma de lembrete.
