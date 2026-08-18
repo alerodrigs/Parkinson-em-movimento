@@ -55,7 +55,7 @@ ParkinsonEmMovimentoFinal;
 ParkinsonEmMovimentoFinal/index.html.
 💻 Link da aplicação publicada:
 
-https://alerodrigs.github.io/ParkinsonEmMovimento/;
+https://darochadavi.github.io/daviparkinson/;
 🖼 Imagens ou demonstração das telas implementadas: Captura de tela 1 Captura de tela 2 Captura de tela 3 Captura de tela 4
 
 📋 Situação atual:
@@ -78,4 +78,5 @@ Em andamento:
 
 Levantamento de Requisitos:
 
-O levantamento de requisitos do projeto 
+O levantamento de requisitos do projeto foi feito a partir de reuniões quinzenais online com a cliente para alinhar seus objetivos e expectativas quanto ao site. Nessas reuniões foram definidos o público-alvo, o conteúdo, as informações necessárias e a identidade visual do projeto.
+A partir dos encontros foi definido a necessidade do site em informar o público-alvo sobre a doença; sobre o projeto; sobre a importância de se movimentar para garantir a melhora na qualidade de vida. Além disso, o site irá agrupar alguns vídeos de exercícios fisioterapêuticos para que as pessoas com Parkinson realizem em casa.    
