@@ -78,8 +78,11 @@ Em andamento:
 
 Levantamento de Requisitos:
 
-O levantamento de requisitos do projeto foi feito a partir de reuniões quinzenais online com a cliente para alinhar seus objetivos e expectativas quanto ao site. Nessas reuniões foram definidos o público-alvo, o conteúdo, as informações necessárias e a identidade visual do projeto.
-A partir dos encontros foi definido a necessidade do site em informar o público-alvo sobre a doença; sobre o projeto; sobre a importância de se movimentar para garantir a melhora na qualidade de vida. Além disso, o site irá agrupar alguns vídeos de exercícios fisioterapêuticos para que as pessoas com Parkinson realizem em casa.    
+O levantamento de requisitos do projeto foi feito a partir de reuniões quinzenais online com a cliente para alinhar seus objetivos e expectativas quanto ao site. Nessas reuniões foram definidos o público-alvo, o conteúdo, as informações necessárias e a identidade visual do projeto. A partir dos encontros foi definido a necessidade do site em informar o público-alvo sobre a doença; sobre o projeto; sobre a importância de se movimentar para garantir a melhora na qualidade de vida. Além disso, o site irá agrupar alguns vídeos de exercícios fisioterapêuticos para que as pessoas com Parkinson realizassem em casa.
+
+O site terá uma seção de cadastro do usuário para que as informações sobre a doença seja transmitido além de ter o contato da cliente para facilitar a comunicação. Quanto a identidade visual, com a logo, foi definida nas cores: verde e roxa. 
+
+O acesso ao site deve ter o desempenho alto com um tempo de resposta rápida com a navegação simples e intuitiva.      
 
 - Requisitos Funcionais(RF):
  	- RF 01: Apresentar visualmente sobre o projeto e sobre a autora dele;
@@ -102,4 +105,4 @@ A partir dos encontros foi definido a necessidade do site em informar o público
  	- RNF 04: Desemepnho:
   		- RNF 04.1: Tempo de resposta cliente-servidor otimizado;
       	- RNF 04.2: Aplicar CodeClean na semântica HTML, estilos CSS e Scripts JavaScript;
-      	- 
+      
