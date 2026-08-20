@@ -90,3 +90,16 @@ A partir dos encontros foi definido a necessidade do site em informar o público
 	- RF 06: Incluir uma checklist para o usuário acompanhar o seu desempenho;
 	- RF 07: Hospedar vídeos e textos informativos sobre as práticas de exercícios;
 	- RF 08: Notificar os usuários cadastrados na plataforma como forma de lembrete.
+
+- Requisitos não Funcionais(RNF):
+ 	- RNF 01: Criptografia na NewsLetter;
+  	- RNF 02: Acessibilidade:
+  		- RNF 02.1: Disponibilizar ambos, modo escuro e claro;
+  	 	- RNF 02.2: Página adaptada ao tamanho da fonte do navegador do usuário;
+  	  	- RNF 02.3: Disponibilizar de um modo libras;
+  	  	- RNF 02.4: Semântica HTML otimizada para leitores de tela utilizados por pessoas com deficiência visual;
+	- RNF 03: Site responsivo para dispositivos móveis;
+ 	- RNF 04: Desemepnho:
+  		- RNF 04.1: Tempo de resposta cliente-servidor otimizado;
+      	- RNF 04.2: Aplicar CodeClean na semântica HTML, estilos CSS e Scripts JavaScript;
+      	- 
