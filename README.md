@@ -53,9 +53,10 @@ Executar com a extensão Live Server para melhor visualização.
 
 ParkinsonEmMovimentoFinal;
 ParkinsonEmMovimentoFinal/index.html.
-💻 Link da aplicação publicada:
 
+💻 Link da aplicação publicada:
 https://darochadavi.github.io/daviparkinson/;
+
 🖼 Imagens ou demonstração das telas implementadas: Captura de tela 1 Captura de tela 2 Captura de tela 3 Captura de tela 4
 
 📋 Situação atual:
