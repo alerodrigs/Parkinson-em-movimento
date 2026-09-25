@@ -14,7 +14,7 @@ body{
 }
 
 #home{
-    background-image: url("background/main/background_home.svg");
+    background-image: url("assets/waves-bg/background_home.svg");
     background-size: cover;
     background-position: center;
     background-color: #D9D9D9;
@@ -233,13 +233,13 @@ nav{
 }
 
 .fundo-sobreparkinson{
-    background-image: url(background/main/sobreparkinson.svg);
+    background-image: url(assets/waves-bg/sobreparkinson.svg);
     top: 0px;
     background-size: 1315.03px auto;
 }
 
 .fundo-sobreprojeto{
-    background-image: url(background/main/sobreprojeto.svg);
+    background-image: url(assets/waves-bg/sobreprojeto.svg);
     top: 1050px;
     background-size: 600px auto;
     
@@ -505,22 +505,22 @@ button:hover{
 .direita{
     width: 40px;
     height: 40px;
-    background-image: url(elements/esquerda.svg);
+    background-image: url(assets/elements/esquerda.svg);
     
 }
 
 .esquerda:hover{
-    background-image: url(elements/direitaHover.svg);
+    background-image: url(assets/elements/direitaHover.svg);
 }
 
 .direita:hover{
-    background-image: url(elements/esquerdaHover.svg);
+    background-image: url(assets/elements/esquerdaHover.svg);
 }
 
 .esquerda{
     width: 40px;
     height: 40px;
-    background-image: url(elements/direita.svg);
+    background-image: url(assets/elements/direita.svg);
 }
 
 /* sobre projeto */
@@ -620,7 +620,7 @@ button:hover{
 }
 
 .foto-perfil{
-    background-image:url(Fotos\ parkinson/fotoCristiane.jpeg);
+    background-image:url(assets/fotos/cristiane.jpeg);
     background-size: 138px 138px;
     background-repeat: no-repeat;
     background-position: 0 0;
